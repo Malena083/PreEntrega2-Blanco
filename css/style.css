@@ -17,9 +17,13 @@ header {
   z-index: 2;
   padding-left: 10%;
 }
+.logo {
+}
 .navbar {
   display: flex;
   align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .menu {
   display: flex;
@@ -79,7 +83,6 @@ header {
 
 .download-title {
   display: flex;
-  justify-content: center;
   align-items: center;
   padding-top: 2%;
   padding-bottom: 5%;
@@ -117,4 +120,28 @@ footer {
 .footer-bottom_copy a:hover {
   color: purple;
   text-decoration: underline;
+}
+.img-photo img {
+  max-width: 70%;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  /*grid-template-areas:
+    "img-photo    about-ask           about__text"
+    "h3          about__text-right    img__photo-right"
+    "img-photo    about-ask           about__text";*/
+}
+
+.container > h2 {
+  display: grid;
+  place-items: center;
+}
+.about__text-right > article {
+  display: flex;
 }
