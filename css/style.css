@@ -70,6 +70,7 @@ header {
 .img-box {
   display: flex;
   justify-content: end;
+  width: 99%;
 }
 .download {
   display: flex;
@@ -173,4 +174,144 @@ footer {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+.start h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  padding-top: 3rem;
+}
+
+.start h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+.tarjetas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+img {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.tarjetas h2 {
+  display: flex;
+  justify-content: center;
+}
+.tarjetas p {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+.tarjetas div {
+  background: #907ad6;
+}
+.tarjetas div:hover {
+  border: 1px solid #907ad6;
+}
+div button {
+  display: flex;
+  justify-content: center;
+  color: #907ad6;
+  padding: 0.5rem;
+  text-align: center;
+}
+.explain {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.noviembre ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  border: 1px solid #907ad6;
+}
+.noviembre h2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+}
+.first-day {
+  grid-column-start: 2;
+}
+.day-name {
+  background: #907ad6;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.noviembre li {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #907ad6;
+  padding-bottom: 1.5rem;
+}
+.text-down {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.start_merch h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  padding-top: 3rem;
+}
+
+.start_merch h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.tarjetas_merch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.img_merch {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.tarjetas_merch h2 {
+  display: flex;
+  justify-content: center;
+}
+.tarjetas_merch p {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+.tarjetas_merch div {
+  background: #584986;
+}
+.tarjetas_merch div:hover {
+  border: 1px solid #907ad6;
+}
+.comprar {
+  display: flex;
+  justify-content: center;
+  color: #907ad6;
+  padding: 0.5rem;
 }
