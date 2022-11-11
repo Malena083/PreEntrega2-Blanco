@@ -1,0 +1,51 @@
+.introPrincipal {
+  background-color: #907ad6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .text-1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 400;
+
+    .text-1-intro {
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .text-1-description {
+      font-size: 1.4rem;
+      margin-top: 1.2rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding-left: 5%;
+      margin-right: 20%;
+    }
+  }
+
+  .img-box {
+    display: flex;
+    justify-content: end;
+    width: 99%;
+  }
+  .download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 6%;
+    padding-inline-end: 6%;
+    padding-bottom: 6%;
+  }
+
+  .download-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+}

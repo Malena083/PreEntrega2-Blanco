@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #907ad6;
+  display: flex;
+  gap: 5rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding-left: 10%;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+header .navbar .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 5rem;
+  align-items: center;
+}
+header .navbar .menu .menu__item a {
+  color: white;
+  text-decoration: none;
+}
+header .navbar .menu .menu__item:hover {
+  opacity: 0.65;
+}
+
+.introPrincipal {
+  background-color: #907ad6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.introPrincipal .text-1 {
+  text-transform: capitalize;
+  color: white;
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+.introPrincipal .text-1 .text-1-intro {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.introPrincipal .text-1 .text-1-description {
+  font-size: 1.4rem;
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 5%;
+  margin-right: 20%;
+}
+.introPrincipal .img-box {
+  display: flex;
+  justify-content: end;
+  width: 99%;
+}
+.introPrincipal .download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-padding-start: 6%;
+          padding-inline-start: 6%;
+  -webkit-padding-end: 6%;
+          padding-inline-end: 6%;
+  padding-bottom: 6%;
+}
+.introPrincipal .download-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,32 @@
+header {
+  background-color: #907ad6;
+  display: flex;
+  gap: 5rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding-left: 10%;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    .menu {
+      display: flex;
+      list-style-type: none;
+      gap: 5rem;
+      align-items: center;
+
+      .menu__item a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .menu__item:hover {
+        opacity: 0.65;
+      }
+    }
+  }
+}
